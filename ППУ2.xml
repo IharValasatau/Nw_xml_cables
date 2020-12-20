@@ -1,0 +1,2657 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DocReport>
+  <Properties>
+    <IsCategorized>False</IsCategorized>
+    <Text>Документ</Text>
+    <Type>Кабельный журнал</Type>
+  </Properties>
+  <Children>
+    <Child TypeName="DocPattern">
+      <Properties>
+        <Category>Структура записи</Category>
+        <DoGroupByTables>True</DoGroupByTables>
+        <IsCategorized>False</IsCategorized>
+        <SchemaName>CableRegisterPattern</SchemaName>
+        <Text>Шаблон документа</Text>
+      </Properties>
+      <Children>
+        <Child TypeName="CableRegisterPatternDocumentItem">
+          <Properties>
+            <CadDocBlocks>Кабельный журнал ГОСТ 21.613-88 Форма 7.dwg</CadDocBlocks>
+            <CadDocFirstPage>A3(420x297)-1.dwg</CadDocFirstPage>
+            <CadDocSecondPage>A3(420x297)-2.dwg</CadDocSecondPage>
+            <IsCategorized>False</IsCategorized>
+            <PageFormat>ISO_A3_(420.00_x_297.00_MM)</PageFormat>
+            <PerNextPage>29</PerNextPage>
+            <PerStartPage>24</PerStartPage>
+            <Text>Документ</Text>
+            <WordDocTemplate>Кабельный журнал ГОСТ 21.613-88 Форма 7.dot</WordDocTemplate>
+          </Properties>
+          <Children>
+            <Child TypeName="PatternDocumentColumnItem">
+              <Properties>
+                <Tag>C1</Tag>
+                <Text>Позиция</Text>
+                <Visible>True</Visible>
+                <Width>40</Width>
+              </Properties>
+            </Child>
+            <Child TypeName="PatternDocumentColumnItem">
+              <Properties>
+                <Tag>C2</Tag>
+                <Text>Начало</Text>
+                <Visible>True</Visible>
+                <Width>40</Width>
+              </Properties>
+            </Child>
+            <Child TypeName="PatternDocumentColumnItem">
+              <Properties>
+                <Tag>C3</Tag>
+                <Text>Конец</Text>
+                <Visible>True</Visible>
+                <Width>40</Width>
+              </Properties>
+            </Child>
+            <Child TypeName="PatternDocumentColumnItem">
+              <Properties>
+                <Tag>C4</Tag>
+                <Text>Список трасс</Text>
+                <Visible>True</Visible>
+                <Width>40</Width>
+              </Properties>
+            </Child>
+            <Child TypeName="PatternDocumentColumnItem">
+              <Properties>
+                <Tag>C5</Tag>
+                <Text>Марка</Text>
+                <Visible>True</Visible>
+                <Width>35</Width>
+              </Properties>
+            </Child>
+            <Child TypeName="PatternDocumentColumnItem">
+              <Properties>
+                <Tag>C6</Tag>
+                <Text>NxS</Text>
+                <Visible>True</Visible>
+                <Width>25</Width>
+              </Properties>
+            </Child>
+            <Child TypeName="PatternDocumentColumnItem">
+              <Properties>
+                <Tag>C7</Tag>
+                <Text>Длина</Text>
+                <Visible>True</Visible>
+                <Width>15</Width>
+              </Properties>
+            </Child>
+            <Child TypeName="PatternDocumentColumnItem">
+              <Properties>
+                <Text>РУ</Text>
+                <Visible>False</Visible>
+                <Width>10</Width>
+              </Properties>
+            </Child>
+            <Child TypeName="PatternDocumentColumnItem">
+              <Properties>
+                <Text>ТО</Text>
+                <Visible>False</Visible>
+                <Width>10</Width>
+              </Properties>
+            </Child>
+          </Children>
+        </Child>
+        <Child TypeName="PatternStructureItem">
+          <Properties>
+            <IsCategorized>True</IsCategorized>
+            <IsSumForEveryBaseElement>False</IsSumForEveryBaseElement>
+            <Text>Структура</Text>
+          </Properties>
+          <Children>
+            <Child TypeName="PatternDocCategoryItem">
+              <Properties>
+                <DoCategoryGrouping>True</DoCategoryGrouping>
+                <HasEndSpaceLine>False</HasEndSpaceLine>
+                <HasSplitLine>True</HasSplitLine>
+                <HasStartSpaceLine>False</HasStartSpaceLine>
+                <IsCategorized>True</IsCategorized>
+                <Text>РУ</Text>
+              </Properties>
+              <Children>
+                <Child TypeName="PatternDocCategoryItem">
+                  <Properties>
+                    <DoCategoryGrouping>True</DoCategoryGrouping>
+                    <HasEndSpaceLine>False</HasEndSpaceLine>
+                    <HasSplitLine>False</HasSplitLine>
+                    <HasStartSpaceLine>False</HasStartSpaceLine>
+                    <IsCategorized>True</IsCategorized>
+                    <Text>ТО</Text>
+                  </Properties>
+                  <Children>
+                    <Child TypeName="CableRegisterPatternTableItem">
+                      <Properties>
+                        <HasEndSpaceLine>False</HasEndSpaceLine>
+                        <HasSplitLine>False</HasSplitLine>
+                        <HasStartSpaceLine>False</HasStartSpaceLine>
+                        <IsCategorized>True</IsCategorized>
+                        <Name>ElPowerDicRecord</Name>
+                        <Text>КЖ: Силовые соединения</Text>
+                      </Properties>
+                      <Children>
+                        <Child TypeName="PatternTableColumnItem">
+                          <Properties>
+                            <AddColumnType>DIGITAL</AddColumnType>
+                            <ColumnType>NOT_CATEGORIZE</ColumnType>
+                            <DocumentColumn>Позиция</DocumentColumn>
+                            <IsCategorized>False</IsCategorized>
+                            <Mask>&lt;CabelMarking&gt;</Mask>
+                            <RoundPrecision>0</RoundPrecision>
+                            <RoundType>NotRound</RoundType>
+                            <Text>Позиция</Text>
+                          </Properties>
+                        </Child>
+                        <Child TypeName="PatternTableColumnItem">
+                          <Properties>
+                            <AddColumnType>DIGITAL</AddColumnType>
+                            <ColumnType>NOT_CATEGORIZE</ColumnType>
+                            <DocumentColumn>Начало</DocumentColumn>
+                            <IsCategorized>False</IsCategorized>
+                            <Mask>&lt;ObjectFromLabel&gt;</Mask>
+                            <RoundPrecision>0</RoundPrecision>
+                            <RoundType>NotRound</RoundType>
+                            <Text>Начало</Text>
+                          </Properties>
+                        </Child>
+                        <Child TypeName="PatternTableColumnItem">
+                          <Properties>
+                            <AddColumnType>DIGITAL</AddColumnType>
+                            <ColumnType>NOT_CATEGORIZE</ColumnType>
+                            <DocumentColumn>Конец</DocumentColumn>
+                            <IsCategorized>False</IsCategorized>
+                            <Mask>&lt;ObjectToLabel&gt;</Mask>
+                            <RoundPrecision>0</RoundPrecision>
+                            <RoundType>NotRound</RoundType>
+                            <Text>Конец</Text>
+                          </Properties>
+                        </Child>
+                        <Child TypeName="PatternTableColumnItem">
+                          <Properties>
+                            <AddColumnType>DIGITAL</AddColumnType>
+                            <ColumnType>NOT_CATEGORIZE</ColumnType>
+                            <DocumentColumn>Список трасс</DocumentColumn>
+                            <IsCategorized>False</IsCategorized>
+                            <Mask>&lt;TracePath&gt;</Mask>
+                            <RoundPrecision>0</RoundPrecision>
+                            <RoundType>NotRound</RoundType>
+                            <Text>Список трасс</Text>
+                          </Properties>
+                        </Child>
+                        <Child TypeName="PatternTableColumnItem">
+                          <Properties>
+                            <AddColumnType>DIGITAL</AddColumnType>
+                            <ColumnType>NOT_CATEGORIZE</ColumnType>
+                            <DocumentColumn>Марка</DocumentColumn>
+                            <IsCategorized>False</IsCategorized>
+                            <Mask>&lt;Wire.wireMark.markName&gt;</Mask>
+                            <RoundPrecision>0</RoundPrecision>
+                            <RoundType>NotRound</RoundType>
+                            <Text>Марка</Text>
+                          </Properties>
+                        </Child>
+                        <Child TypeName="PatternTableColumnItem">
+                          <Properties>
+                            <AddColumnType>DIGITAL</AddColumnType>
+                            <ColumnType>NOT_CATEGORIZE</ColumnType>
+                            <DocumentColumn>NxS</DocumentColumn>
+                            <IsCategorized>False</IsCategorized>
+                            <Mask>&lt;Wire.conductsDesignation&gt;</Mask>
+                            <RoundPrecision>0</RoundPrecision>
+                            <RoundType>NotRound</RoundType>
+                            <Text>NxS</Text>
+                          </Properties>
+                        </Child>
+                        <Child TypeName="PatternTableColumnItem">
+                          <Properties>
+                            <AddColumnType>DIGITAL</AddColumnType>
+                            <ColumnType>ADD</ColumnType>
+                            <DocumentColumn>Длина</DocumentColumn>
+                            <IsCategorized>False</IsCategorized>
+                            <Mask>&lt;Length&gt;</Mask>
+                            <RoundPrecision>0</RoundPrecision>
+                            <RoundType>NotRound</RoundType>
+                            <Text>Длина</Text>
+                          </Properties>
+                        </Child>
+                        <Child TypeName="PatternTableColumnItem">
+                          <Properties>
+                            <AddColumnType>DIGITAL</AddColumnType>
+                            <ColumnType>NOT_CATEGORIZE</ColumnType>
+                            <DocumentColumn>РУ</DocumentColumn>
+                            <IsCategorized>False</IsCategorized>
+                            <Mask>&lt;ShellName&gt;</Mask>
+                            <RoundPrecision>0</RoundPrecision>
+                            <RoundType>NotRound</RoundType>
+                            <Text>РУ</Text>
+                          </Properties>
+                        </Child>
+                        <Child TypeName="PatternTableColumnItem">
+                          <Properties>
+                            <AddColumnType>DIGITAL</AddColumnType>
+                            <ColumnType>NOT_CATEGORIZE</ColumnType>
+                            <DocumentColumn>ТО</DocumentColumn>
+                            <IsCategorized>False</IsCategorized>
+                            <Mask>&lt;ConsumerDevice&gt;</Mask>
+                            <RoundPrecision>0</RoundPrecision>
+                            <RoundType>NotRound</RoundType>
+                            <Text>ТО</Text>
+                          </Properties>
+                        </Child>
+                      </Children>
+                    </Child>
+                    <Child TypeName="PatternTableColumnItem">
+                      <Properties>
+                        <AddColumnType>DIGITAL</AddColumnType>
+                        <ColumnType>CATEGORIZE</ColumnType>
+                        <DocumentColumn>Не выводить</DocumentColumn>
+                        <IsCategorized>False</IsCategorized>
+                        <Mask>&lt;ТО&gt;</Mask>
+                        <RoundPrecision>0</RoundPrecision>
+                        <RoundType>NotRound</RoundType>
+                        <Text>ТО</Text>
+                      </Properties>
+                    </Child>
+                    <Child TypeName="CableRegisterPatternTableItem">
+                      <Properties>
+                        <HasEndSpaceLine>True</HasEndSpaceLine>
+                        <HasSplitLine>False</HasSplitLine>
+                        <HasStartSpaceLine>False</HasStartSpaceLine>
+                        <IsCategorized>True</IsCategorized>
+                        <Name>ElGroupDicRecord</Name>
+                        <Text>КЖ: Групповые соединения</Text>
+                      </Properties>
+                      <Children>
+                        <Child TypeName="PatternTableColumnItem">
+                          <Properties>
+                            <AddColumnType>DIGITAL</AddColumnType>
+                            <ColumnType>NOT_CATEGORIZE</ColumnType>
+                            <DocumentColumn>Позиция</DocumentColumn>
+                            <IsCategorized>False</IsCategorized>
+                            <Mask>&lt;CabelMarking&gt;</Mask>
+                            <RoundPrecision>0</RoundPrecision>
+                            <RoundType>NotRound</RoundType>
+                            <Text>Позиция</Text>
+                          </Properties>
+                        </Child>
+                        <Child TypeName="PatternTableColumnItem">
+                          <Properties>
+                            <AddColumnType>DIGITAL</AddColumnType>
+                            <ColumnType>NOT_CATEGORIZE</ColumnType>
+                            <DocumentColumn>Начало</DocumentColumn>
+                            <IsCategorized>False</IsCategorized>
+                            <Mask>&lt;ObjectFromLabel&gt;</Mask>
+                            <RoundPrecision>0</RoundPrecision>
+                            <RoundType>NotRound</RoundType>
+                            <Text>Начало</Text>
+                          </Properties>
+                        </Child>
+                        <Child TypeName="PatternTableColumnItem">
+                          <Properties>
+                            <AddColumnType>DIGITAL</AddColumnType>
+                            <ColumnType>NOT_CATEGORIZE</ColumnType>
+                            <DocumentColumn>Конец</DocumentColumn>
+                            <IsCategorized>False</IsCategorized>
+                            <Mask>&lt;ObjectToLabel&gt;</Mask>
+                            <RoundPrecision>0</RoundPrecision>
+                            <RoundType>NotRound</RoundType>
+                            <Text>Конец</Text>
+                          </Properties>
+                        </Child>
+                        <Child TypeName="PatternTableColumnItem">
+                          <Properties>
+                            <AddColumnType>DIGITAL</AddColumnType>
+                            <ColumnType>NOT_CATEGORIZE</ColumnType>
+                            <DocumentColumn>Список трасс</DocumentColumn>
+                            <IsCategorized>False</IsCategorized>
+                            <Mask>&lt;TracePath&gt;</Mask>
+                            <RoundPrecision>0</RoundPrecision>
+                            <RoundType>NotRound</RoundType>
+                            <Text>Список трасс</Text>
+                          </Properties>
+                        </Child>
+                        <Child TypeName="PatternTableColumnItem">
+                          <Properties>
+                            <AddColumnType>DIGITAL</AddColumnType>
+                            <ColumnType>NOT_CATEGORIZE</ColumnType>
+                            <DocumentColumn>Марка</DocumentColumn>
+                            <IsCategorized>False</IsCategorized>
+                            <Mask>&lt;Wire.wireMark.MarkNameMain&gt;</Mask>
+                            <RoundPrecision>0</RoundPrecision>
+                            <RoundType>NotRound</RoundType>
+                            <Text>Марка</Text>
+                          </Properties>
+                        </Child>
+                        <Child TypeName="PatternTableColumnItem">
+                          <Properties>
+                            <AddColumnType>DIGITAL</AddColumnType>
+                            <ColumnType>NOT_CATEGORIZE</ColumnType>
+                            <DocumentColumn>NxS</DocumentColumn>
+                            <IsCategorized>False</IsCategorized>
+                            <Mask>&lt;Wire.conductsDesignation&gt;</Mask>
+                            <RoundPrecision>0</RoundPrecision>
+                            <RoundType>NotRound</RoundType>
+                            <Text>NxS</Text>
+                          </Properties>
+                        </Child>
+                        <Child TypeName="PatternTableColumnItem">
+                          <Properties>
+                            <AddColumnType>DIGITAL</AddColumnType>
+                            <ColumnType>ADD</ColumnType>
+                            <DocumentColumn>Длина</DocumentColumn>
+                            <IsCategorized>False</IsCategorized>
+                            <Mask>&lt;Length&gt;</Mask>
+                            <RoundPrecision>0</RoundPrecision>
+                            <RoundType>NotRound</RoundType>
+                            <Text>Длина</Text>
+                          </Properties>
+                        </Child>
+                        <Child TypeName="PatternTableColumnItem">
+                          <Properties>
+                            <AddColumnType>DIGITAL</AddColumnType>
+                            <ColumnType>NOT_CATEGORIZE</ColumnType>
+                            <DocumentColumn>РУ</DocumentColumn>
+                            <IsCategorized>False</IsCategorized>
+                            <Mask>&lt;ShellName&gt;</Mask>
+                            <RoundPrecision>0</RoundPrecision>
+                            <RoundType>NotRound</RoundType>
+                            <Text>РУ</Text>
+                          </Properties>
+                        </Child>
+                        <Child TypeName="PatternTableColumnItem">
+                          <Properties>
+                            <AddColumnType>DIGITAL</AddColumnType>
+                            <ColumnType>NOT_CATEGORIZE</ColumnType>
+                            <DocumentColumn>ТО</DocumentColumn>
+                            <IsCategorized>False</IsCategorized>
+                            <Mask>&lt;ConsumerDevice&gt;</Mask>
+                            <RoundPrecision>0</RoundPrecision>
+                            <RoundType>NotRound</RoundType>
+                            <Text>ТО</Text>
+                          </Properties>
+                        </Child>
+                      </Children>
+                    </Child>
+                    <Child TypeName="CableRegisterPatternTableItem">
+                      <Properties>
+                        <HasEndSpaceLine>True</HasEndSpaceLine>
+                        <HasSplitLine>False</HasSplitLine>
+                        <HasStartSpaceLine>False</HasStartSpaceLine>
+                        <IsCategorized>True</IsCategorized>
+                        <Name>ElGroupDicRecordGroup</Name>
+                        <Text>КЖ: Группы групповых соединений</Text>
+                      </Properties>
+                      <Children>
+                        <Child TypeName="PatternTableColumnItem">
+                          <Properties>
+                            <AddColumnType>DIGITAL</AddColumnType>
+                            <ColumnType>NOT_CATEGORIZE</ColumnType>
+                            <DocumentColumn>Позиция</DocumentColumn>
+                            <IsCategorized>False</IsCategorized>
+                            <Mask>&lt;CabelMarking&gt;</Mask>
+                            <RoundPrecision>0</RoundPrecision>
+                            <RoundType>NotRound</RoundType>
+                            <Text>Позиция</Text>
+                          </Properties>
+                        </Child>
+                        <Child TypeName="PatternTableColumnItem">
+                          <Properties>
+                            <AddColumnType>DIGITAL</AddColumnType>
+                            <ColumnType>NOT_CATEGORIZE</ColumnType>
+                            <DocumentColumn>Начало</DocumentColumn>
+                            <IsCategorized>False</IsCategorized>
+                            <Mask>&lt;ObjectFromLabel&gt;</Mask>
+                            <RoundPrecision>0</RoundPrecision>
+                            <RoundType>NotRound</RoundType>
+                            <Text>Начало</Text>
+                          </Properties>
+                        </Child>
+                        <Child TypeName="PatternTableColumnItem">
+                          <Properties>
+                            <AddColumnType>DIGITAL</AddColumnType>
+                            <ColumnType>NOT_CATEGORIZE</ColumnType>
+                            <DocumentColumn>Конец</DocumentColumn>
+                            <IsCategorized>False</IsCategorized>
+                            <Mask>&lt;ObjectToLabel&gt;</Mask>
+                            <RoundPrecision>0</RoundPrecision>
+                            <RoundType>NotRound</RoundType>
+                            <Text>Конец</Text>
+                          </Properties>
+                        </Child>
+                        <Child TypeName="PatternTableColumnItem">
+                          <Properties>
+                            <AddColumnType>DIGITAL</AddColumnType>
+                            <ColumnType>NOT_CATEGORIZE</ColumnType>
+                            <DocumentColumn>Список трасс</DocumentColumn>
+                            <IsCategorized>False</IsCategorized>
+                            <Mask>&lt;TracePath&gt;</Mask>
+                            <RoundPrecision>0</RoundPrecision>
+                            <RoundType>NotRound</RoundType>
+                            <Text>Список трасс</Text>
+                          </Properties>
+                        </Child>
+                        <Child TypeName="PatternTableColumnItem">
+                          <Properties>
+                            <AddColumnType>DIGITAL</AddColumnType>
+                            <ColumnType>NOT_CATEGORIZE</ColumnType>
+                            <DocumentColumn>Марка</DocumentColumn>
+                            <IsCategorized>False</IsCategorized>
+                            <Mask>&lt;MarkNameMain&gt;</Mask>
+                            <RoundPrecision>0</RoundPrecision>
+                            <RoundType>NotRound</RoundType>
+                            <Text>Марка</Text>
+                          </Properties>
+                        </Child>
+                        <Child TypeName="PatternTableColumnItem">
+                          <Properties>
+                            <AddColumnType>DIGITAL</AddColumnType>
+                            <ColumnType>NOT_CATEGORIZE</ColumnType>
+                            <DocumentColumn>NxS</DocumentColumn>
+                            <IsCategorized>False</IsCategorized>
+                            <Mask>&lt;ConductsDesignation&gt;</Mask>
+                            <RoundPrecision>0</RoundPrecision>
+                            <RoundType>NotRound</RoundType>
+                            <Text>NxS</Text>
+                          </Properties>
+                        </Child>
+                        <Child TypeName="PatternTableColumnItem">
+                          <Properties>
+                            <AddColumnType>STRING</AddColumnType>
+                            <ColumnType>ADD</ColumnType>
+                            <DocumentColumn>Длина</DocumentColumn>
+                            <IsCategorized>False</IsCategorized>
+                            <Mask>&lt;LengthValue&gt;</Mask>
+                            <RoundPrecision>0</RoundPrecision>
+                            <RoundType>NotRound</RoundType>
+                            <Text>Длина</Text>
+                          </Properties>
+                        </Child>
+                        <Child TypeName="PatternTableColumnItem">
+                          <Properties>
+                            <AddColumnType>DIGITAL</AddColumnType>
+                            <ColumnType>NOT_CATEGORIZE</ColumnType>
+                            <DocumentColumn>РУ</DocumentColumn>
+                            <IsCategorized>False</IsCategorized>
+                            <Mask>&lt;ShellName&gt;</Mask>
+                            <RoundPrecision>0</RoundPrecision>
+                            <RoundType>NotRound</RoundType>
+                            <Text>РУ</Text>
+                          </Properties>
+                        </Child>
+                        <Child TypeName="PatternTableColumnItem">
+                          <Properties>
+                            <AddColumnType>DIGITAL</AddColumnType>
+                            <ColumnType>NOT_CATEGORIZE</ColumnType>
+                            <DocumentColumn>ТО</DocumentColumn>
+                            <IsCategorized>False</IsCategorized>
+                            <Mask>&lt;ConsumerDevice&gt;</Mask>
+                            <RoundPrecision>0</RoundPrecision>
+                            <RoundType>NotRound</RoundType>
+                            <Text>ТО</Text>
+                          </Properties>
+                        </Child>
+                      </Children>
+                    </Child>
+                    <Child TypeName="CableRegisterPatternTableItem">
+                      <Properties>
+                        <HasEndSpaceLine>False</HasEndSpaceLine>
+                        <HasSplitLine>False</HasSplitLine>
+                        <HasStartSpaceLine>False</HasStartSpaceLine>
+                        <IsCategorized>True</IsCategorized>
+                        <Name>ElPowerControlDicRecord</Name>
+                        <Text>КЖ: Контрольные соединения</Text>
+                      </Properties>
+                      <Children>
+                        <Child TypeName="PatternTableColumnItem">
+                          <Properties>
+                            <AddColumnType>DIGITAL</AddColumnType>
+                            <ColumnType>NOT_CATEGORIZE</ColumnType>
+                            <DocumentColumn>Позиция</DocumentColumn>
+                            <IsCategorized>False</IsCategorized>
+                            <Mask>&lt;CabelMarking&gt;</Mask>
+                            <RoundPrecision>0</RoundPrecision>
+                            <RoundType>NotRound</RoundType>
+                            <Text>Позиция</Text>
+                          </Properties>
+                        </Child>
+                        <Child TypeName="PatternTableColumnItem">
+                          <Properties>
+                            <AddColumnType>DIGITAL</AddColumnType>
+                            <ColumnType>NOT_CATEGORIZE</ColumnType>
+                            <DocumentColumn>Начало</DocumentColumn>
+                            <IsCategorized>False</IsCategorized>
+                            <Mask>&lt;ObjectFromLabel&gt;</Mask>
+                            <RoundPrecision>0</RoundPrecision>
+                            <RoundType>NotRound</RoundType>
+                            <Text>Начало</Text>
+                          </Properties>
+                        </Child>
+                        <Child TypeName="PatternTableColumnItem">
+                          <Properties>
+                            <AddColumnType>DIGITAL</AddColumnType>
+                            <ColumnType>NOT_CATEGORIZE</ColumnType>
+                            <DocumentColumn>Конец</DocumentColumn>
+                            <IsCategorized>False</IsCategorized>
+                            <Mask>&lt;ObjectToLabel&gt;</Mask>
+                            <RoundPrecision>0</RoundPrecision>
+                            <RoundType>NotRound</RoundType>
+                            <Text>Конец</Text>
+                          </Properties>
+                        </Child>
+                        <Child TypeName="PatternTableColumnItem">
+                          <Properties>
+                            <AddColumnType>DIGITAL</AddColumnType>
+                            <ColumnType>NOT_CATEGORIZE</ColumnType>
+                            <DocumentColumn>Список трасс</DocumentColumn>
+                            <IsCategorized>False</IsCategorized>
+                            <Mask>&lt;TracePath&gt;</Mask>
+                            <RoundPrecision>0</RoundPrecision>
+                            <RoundType>NotRound</RoundType>
+                            <Text>Список трасс</Text>
+                          </Properties>
+                        </Child>
+                        <Child TypeName="PatternTableColumnItem">
+                          <Properties>
+                            <AddColumnType>DIGITAL</AddColumnType>
+                            <ColumnType>NOT_CATEGORIZE</ColumnType>
+                            <DocumentColumn>Марка</DocumentColumn>
+                            <IsCategorized>False</IsCategorized>
+                            <Mask>&lt;Wire.wireMark.MarkNameMain&gt;</Mask>
+                            <RoundPrecision>0</RoundPrecision>
+                            <RoundType>NotRound</RoundType>
+                            <Text>Марка</Text>
+                          </Properties>
+                        </Child>
+                        <Child TypeName="PatternTableColumnItem">
+                          <Properties>
+                            <AddColumnType>DIGITAL</AddColumnType>
+                            <ColumnType>NOT_CATEGORIZE</ColumnType>
+                            <DocumentColumn>NxS</DocumentColumn>
+                            <IsCategorized>False</IsCategorized>
+                            <Mask>&lt;Wire.conductsDesignation&gt;</Mask>
+                            <RoundPrecision>0</RoundPrecision>
+                            <RoundType>NotRound</RoundType>
+                            <Text>NxS</Text>
+                          </Properties>
+                        </Child>
+                        <Child TypeName="PatternTableColumnItem">
+                          <Properties>
+                            <AddColumnType>DIGITAL</AddColumnType>
+                            <ColumnType>ADD</ColumnType>
+                            <DocumentColumn>Длина</DocumentColumn>
+                            <IsCategorized>False</IsCategorized>
+                            <Mask>&lt;Length&gt;</Mask>
+                            <RoundPrecision>0</RoundPrecision>
+                            <RoundType>NotRound</RoundType>
+                            <Text>Длина</Text>
+                          </Properties>
+                        </Child>
+                        <Child TypeName="PatternTableColumnItem">
+                          <Properties>
+                            <AddColumnType>DIGITAL</AddColumnType>
+                            <ColumnType>NOT_CATEGORIZE</ColumnType>
+                            <DocumentColumn>РУ</DocumentColumn>
+                            <IsCategorized>False</IsCategorized>
+                            <Mask>&lt;ShellName&gt;</Mask>
+                            <RoundPrecision>0</RoundPrecision>
+                            <RoundType>NotRound</RoundType>
+                            <Text>РУ</Text>
+                          </Properties>
+                        </Child>
+                        <Child TypeName="PatternTableColumnItem">
+                          <Properties>
+                            <AddColumnType>DIGITAL</AddColumnType>
+                            <ColumnType>NOT_CATEGORIZE</ColumnType>
+                            <DocumentColumn>ТО</DocumentColumn>
+                            <IsCategorized>False</IsCategorized>
+                            <Mask>&lt;ConsumerDevice&gt;</Mask>
+                            <RoundPrecision>0</RoundPrecision>
+                            <RoundType>NotRound</RoundType>
+                            <Text>ТО</Text>
+                          </Properties>
+                        </Child>
+                      </Children>
+                    </Child>
+                  </Children>
+                </Child>
+                <Child TypeName="PatternTableColumnItem">
+                  <Properties>
+                    <AddColumnType>DIGITAL</AddColumnType>
+                    <ColumnType>CATEGORIZE</ColumnType>
+                    <DocumentColumn>Позиция</DocumentColumn>
+                    <DocumentOutputMask>&lt;РУ&gt;</DocumentOutputMask>
+                    <IsCategorized>False</IsCategorized>
+                    <Mask>&lt;РУ&gt;</Mask>
+                    <RoundPrecision>0</RoundPrecision>
+                    <RoundType>NotRound</RoundType>
+                    <Text>РУ</Text>
+                  </Properties>
+                </Child>
+              </Children>
+            </Child>
+          </Children>
+        </Child>
+      </Children>
+    </Child>
+    <Child TypeName="DocReportDataItem">
+      <Properties>
+        <IsCategorized>False</IsCategorized>
+        <Text>Данные</Text>
+      </Properties>
+      <Children>
+        <Child TypeName="DocRecordItem">
+          <Properties>
+            <IsCategorized>False</IsCategorized>
+          </Properties>
+          <Children>
+            <Child TypeName="DocRecordFieldItem">
+              <Properties>
+                <ColumnName>Позиция</ColumnName>
+                <Value>ППУ2</Value>
+              </Properties>
+            </Child>
+            <Child TypeName="DocRecordFieldItem">
+              <Properties>
+                <ColumnName>Начало</ColumnName>
+              </Properties>
+            </Child>
+            <Child TypeName="DocRecordFieldItem">
+              <Properties>
+                <ColumnName>Конец</ColumnName>
+              </Properties>
+            </Child>
+            <Child TypeName="DocRecordFieldItem">
+              <Properties>
+                <ColumnName>Список трасс</ColumnName>
+              </Properties>
+            </Child>
+            <Child TypeName="DocRecordFieldItem">
+              <Properties>
+                <ColumnName>Марка</ColumnName>
+              </Properties>
+            </Child>
+            <Child TypeName="DocRecordFieldItem">
+              <Properties>
+                <ColumnName>NxS</ColumnName>
+              </Properties>
+            </Child>
+            <Child TypeName="DocRecordFieldItem">
+              <Properties>
+                <ColumnName>Длина</ColumnName>
+              </Properties>
+            </Child>
+            <Child TypeName="DocRecordFieldItem">
+              <Properties>
+                <ColumnName>РУ</ColumnName>
+              </Properties>
+            </Child>
+            <Child TypeName="DocRecordFieldItem">
+              <Properties>
+                <ColumnName>ТО</ColumnName>
+              </Properties>
+            </Child>
+          </Children>
+        </Child>
+        <Child TypeName="DocRecordItem">
+          <Properties>
+            <IsCategorized>False</IsCategorized>
+          </Properties>
+          <Children>
+            <Child TypeName="DocRecordFieldItem">
+              <Properties>
+                <ColumnName>Позиция</ColumnName>
+                <Value>н.2-102 ОВ</Value>
+              </Properties>
+            </Child>
+            <Child TypeName="DocRecordFieldItem">
+              <Properties>
+                <ColumnName>Начало</ColumnName>
+                <Value>ППУ2</Value>
+              </Properties>
+            </Child>
+            <Child TypeName="DocRecordFieldItem">
+              <Properties>
+                <ColumnName>Конец</ColumnName>
+                <Value>2-102 ОВ</Value>
+              </Properties>
+            </Child>
+            <Child TypeName="DocRecordFieldItem">
+              <Properties>
+                <ColumnName>Список трасс</ColumnName>
+                <Value>Т.875,Т.89,Т.88,Т.87,Т.4,Т.6,Т.7,Т.8,Т.9,Т.10,Т.11,Т.12,Т.13,Т.14,Т.15,Т.16,Т.848,Т.920,Т.921</Value>
+              </Properties>
+            </Child>
+            <Child TypeName="DocRecordFieldItem">
+              <Properties>
+                <ColumnName>Марка</ColumnName>
+                <Value>ВВГнг-FRLS</Value>
+              </Properties>
+            </Child>
+            <Child TypeName="DocRecordFieldItem">
+              <Properties>
+                <ColumnName>NxS</ColumnName>
+                <Value>3x2.5</Value>
+              </Properties>
+            </Child>
+            <Child TypeName="DocRecordFieldItem">
+              <Properties>
+                <ColumnName>Длина</ColumnName>
+                <Value>33</Value>
+              </Properties>
+            </Child>
+            <Child TypeName="DocRecordFieldItem">
+              <Properties>
+                <ColumnName>РУ</ColumnName>
+                <Value>ППУ2</Value>
+              </Properties>
+            </Child>
+            <Child TypeName="DocRecordFieldItem">
+              <Properties>
+                <ColumnName>ТО</ColumnName>
+                <Value>QF1</Value>
+              </Properties>
+            </Child>
+          </Children>
+        </Child>
+        <Child TypeName="DocRecordItem">
+          <Properties>
+            <IsCategorized>False</IsCategorized>
+          </Properties>
+          <Children>
+            <Child TypeName="DocRecordFieldItem">
+              <Properties>
+                <ColumnName>Позиция</ColumnName>
+                <Value>н.2-103 ОВ</Value>
+              </Properties>
+            </Child>
+            <Child TypeName="DocRecordFieldItem">
+              <Properties>
+                <ColumnName>Начало</ColumnName>
+                <Value>ППУ2</Value>
+              </Properties>
+            </Child>
+            <Child TypeName="DocRecordFieldItem">
+              <Properties>
+                <ColumnName>Конец</ColumnName>
+                <Value>2-103 ОВ</Value>
+              </Properties>
+            </Child>
+            <Child TypeName="DocRecordFieldItem">
+              <Properties>
+                <ColumnName>Список трасс</ColumnName>
+                <Value>Т.875,Т.89,Т.88,Т.87,Т.4,Т.6,Т.7,Т.8,Т.9,Т.10,Т.11,Т.12,Т.13,Т.850,Т.851,Т.922</Value>
+              </Properties>
+            </Child>
+            <Child TypeName="DocRecordFieldItem">
+              <Properties>
+                <ColumnName>Марка</ColumnName>
+                <Value>ВВГнг-FRLS</Value>
+              </Properties>
+            </Child>
+            <Child TypeName="DocRecordFieldItem">
+              <Properties>
+                <ColumnName>NxS</ColumnName>
+                <Value>3x2.5</Value>
+              </Properties>
+            </Child>
+            <Child TypeName="DocRecordFieldItem">
+              <Properties>
+                <ColumnName>Длина</ColumnName>
+                <Value>30</Value>
+              </Properties>
+            </Child>
+            <Child TypeName="DocRecordFieldItem">
+              <Properties>
+                <ColumnName>РУ</ColumnName>
+                <Value>ППУ2</Value>
+              </Properties>
+            </Child>
+            <Child TypeName="DocRecordFieldItem">
+              <Properties>
+                <ColumnName>ТО</ColumnName>
+                <Value>QF2</Value>
+              </Properties>
+            </Child>
+          </Children>
+        </Child>
+        <Child TypeName="DocRecordItem">
+          <Properties>
+            <IsCategorized>False</IsCategorized>
+          </Properties>
+          <Children>
+            <Child TypeName="DocRecordFieldItem">
+              <Properties>
+                <ColumnName>Позиция</ColumnName>
+                <Value>н.3-110 ОВ</Value>
+              </Properties>
+            </Child>
+            <Child TypeName="DocRecordFieldItem">
+              <Properties>
+                <ColumnName>Начало</ColumnName>
+                <Value>ППУ2</Value>
+              </Properties>
+            </Child>
+            <Child TypeName="DocRecordFieldItem">
+              <Properties>
+                <ColumnName>Конец</ColumnName>
+                <Value>3-110 ОВ</Value>
+              </Properties>
+            </Child>
+            <Child TypeName="DocRecordFieldItem">
+              <Properties>
+                <ColumnName>Список трасс</ColumnName>
+                <Value>Т.875,Т.89,Т.88,Т.87,Т.4,Т.6,Т.865,Т.923</Value>
+              </Properties>
+            </Child>
+            <Child TypeName="DocRecordFieldItem">
+              <Properties>
+                <ColumnName>Марка</ColumnName>
+                <Value>ВВГнг-FRLS</Value>
+              </Properties>
+            </Child>
+            <Child TypeName="DocRecordFieldItem">
+              <Properties>
+                <ColumnName>NxS</ColumnName>
+                <Value>3x2.5</Value>
+              </Properties>
+            </Child>
+            <Child TypeName="DocRecordFieldItem">
+              <Properties>
+                <ColumnName>Длина</ColumnName>
+                <Value>15</Value>
+              </Properties>
+            </Child>
+            <Child TypeName="DocRecordFieldItem">
+              <Properties>
+                <ColumnName>РУ</ColumnName>
+                <Value>ППУ2</Value>
+              </Properties>
+            </Child>
+            <Child TypeName="DocRecordFieldItem">
+              <Properties>
+                <ColumnName>ТО</ColumnName>
+                <Value>QF3</Value>
+              </Properties>
+            </Child>
+          </Children>
+        </Child>
+        <Child TypeName="DocRecordItem">
+          <Properties>
+            <IsCategorized>False</IsCategorized>
+          </Properties>
+          <Children>
+            <Child TypeName="DocRecordFieldItem">
+              <Properties>
+                <ColumnName>Позиция</ColumnName>
+                <Value>н.3-113 ОВ</Value>
+              </Properties>
+            </Child>
+            <Child TypeName="DocRecordFieldItem">
+              <Properties>
+                <ColumnName>Начало</ColumnName>
+                <Value>ППУ2</Value>
+              </Properties>
+            </Child>
+            <Child TypeName="DocRecordFieldItem">
+              <Properties>
+                <ColumnName>Конец</ColumnName>
+                <Value>3-113 ОВ</Value>
+              </Properties>
+            </Child>
+            <Child TypeName="DocRecordFieldItem">
+              <Properties>
+                <ColumnName>Список трасс</ColumnName>
+                <Value>Т.875,Т.89,Т.88,Т.87,Т.4,Т.22,Т.23,Т.24,Т.25,Т.26,Т.27,Т.28,Т.29,Т.30,Т.31,Т.32,Т.33,Т.34,Т.98,Т.99,Т.100,Т.101,Т.842,Т.843,Т.924</Value>
+              </Properties>
+            </Child>
+            <Child TypeName="DocRecordFieldItem">
+              <Properties>
+                <ColumnName>Марка</ColumnName>
+                <Value>ВВГнг-FRLS</Value>
+              </Properties>
+            </Child>
+            <Child TypeName="DocRecordFieldItem">
+              <Properties>
+                <ColumnName>NxS</ColumnName>
+                <Value>3x2.5</Value>
+              </Properties>
+            </Child>
+            <Child TypeName="DocRecordFieldItem">
+              <Properties>
+                <ColumnName>Длина</ColumnName>
+                <Value>43</Value>
+              </Properties>
+            </Child>
+            <Child TypeName="DocRecordFieldItem">
+              <Properties>
+                <ColumnName>РУ</ColumnName>
+                <Value>ППУ2</Value>
+              </Properties>
+            </Child>
+            <Child TypeName="DocRecordFieldItem">
+              <Properties>
+                <ColumnName>ТО</ColumnName>
+                <Value>QF4</Value>
+              </Properties>
+            </Child>
+          </Children>
+        </Child>
+        <Child TypeName="DocRecordItem">
+          <Properties>
+            <IsCategorized>False</IsCategorized>
+          </Properties>
+          <Children>
+            <Child TypeName="DocRecordFieldItem">
+              <Properties>
+                <ColumnName>Позиция</ColumnName>
+                <Value>н.2-114 ОВ</Value>
+              </Properties>
+            </Child>
+            <Child TypeName="DocRecordFieldItem">
+              <Properties>
+                <ColumnName>Начало</ColumnName>
+                <Value>ППУ2</Value>
+              </Properties>
+            </Child>
+            <Child TypeName="DocRecordFieldItem">
+              <Properties>
+                <ColumnName>Конец</ColumnName>
+                <Value>2-114 ОВ</Value>
+              </Properties>
+            </Child>
+            <Child TypeName="DocRecordFieldItem">
+              <Properties>
+                <ColumnName>Список трасс</ColumnName>
+                <Value>Т.875,Т.89,Т.88,Т.87,Т.4,Т.22,Т.23,Т.24,Т.25,Т.26,Т.27,Т.28,Т.29,Т.30,Т.31,Т.32,Т.33,Т.34,Т.98,Т.99,Т.845,Т.846,Т.925</Value>
+              </Properties>
+            </Child>
+            <Child TypeName="DocRecordFieldItem">
+              <Properties>
+                <ColumnName>Марка</ColumnName>
+                <Value>ВВГнг-FRLS</Value>
+              </Properties>
+            </Child>
+            <Child TypeName="DocRecordFieldItem">
+              <Properties>
+                <ColumnName>NxS</ColumnName>
+                <Value>3x2.5</Value>
+              </Properties>
+            </Child>
+            <Child TypeName="DocRecordFieldItem">
+              <Properties>
+                <ColumnName>Длина</ColumnName>
+                <Value>37</Value>
+              </Properties>
+            </Child>
+            <Child TypeName="DocRecordFieldItem">
+              <Properties>
+                <ColumnName>РУ</ColumnName>
+                <Value>ППУ2</Value>
+              </Properties>
+            </Child>
+            <Child TypeName="DocRecordFieldItem">
+              <Properties>
+                <ColumnName>ТО</ColumnName>
+                <Value>QF5</Value>
+              </Properties>
+            </Child>
+          </Children>
+        </Child>
+        <Child TypeName="DocRecordItem">
+          <Properties>
+            <IsCategorized>False</IsCategorized>
+          </Properties>
+          <Children>
+            <Child TypeName="DocRecordFieldItem">
+              <Properties>
+                <ColumnName>Позиция</ColumnName>
+                <Value>н.2-120 ОВ</Value>
+              </Properties>
+            </Child>
+            <Child TypeName="DocRecordFieldItem">
+              <Properties>
+                <ColumnName>Начало</ColumnName>
+                <Value>ППУ2</Value>
+              </Properties>
+            </Child>
+            <Child TypeName="DocRecordFieldItem">
+              <Properties>
+                <ColumnName>Конец</ColumnName>
+                <Value>2-120 ОВ</Value>
+              </Properties>
+            </Child>
+            <Child TypeName="DocRecordFieldItem">
+              <Properties>
+                <ColumnName>Список трасс</ColumnName>
+                <Value>Т.875,Т.89,Т.88,Т.87,Т.4,Т.22,Т.55,Т.56,Т.57,Т.58,Т.59,Т.926</Value>
+              </Properties>
+            </Child>
+            <Child TypeName="DocRecordFieldItem">
+              <Properties>
+                <ColumnName>Марка</ColumnName>
+                <Value>ВВГнг-FRLS</Value>
+              </Properties>
+            </Child>
+            <Child TypeName="DocRecordFieldItem">
+              <Properties>
+                <ColumnName>NxS</ColumnName>
+                <Value>3x2.5</Value>
+              </Properties>
+            </Child>
+            <Child TypeName="DocRecordFieldItem">
+              <Properties>
+                <ColumnName>Длина</ColumnName>
+                <Value>13</Value>
+              </Properties>
+            </Child>
+            <Child TypeName="DocRecordFieldItem">
+              <Properties>
+                <ColumnName>РУ</ColumnName>
+                <Value>ППУ2</Value>
+              </Properties>
+            </Child>
+            <Child TypeName="DocRecordFieldItem">
+              <Properties>
+                <ColumnName>ТО</ColumnName>
+                <Value>QF6</Value>
+              </Properties>
+            </Child>
+          </Children>
+        </Child>
+        <Child TypeName="DocRecordItem">
+          <Properties>
+            <IsCategorized>False</IsCategorized>
+          </Properties>
+          <Children>
+            <Child TypeName="DocRecordFieldItem">
+              <Properties>
+                <ColumnName>Позиция</ColumnName>
+                <Value>н.2-202 ОВ</Value>
+              </Properties>
+            </Child>
+            <Child TypeName="DocRecordFieldItem">
+              <Properties>
+                <ColumnName>Начало</ColumnName>
+                <Value>ППУ2</Value>
+              </Properties>
+            </Child>
+            <Child TypeName="DocRecordFieldItem">
+              <Properties>
+                <ColumnName>Конец</ColumnName>
+                <Value>2-202 ОВ</Value>
+              </Properties>
+            </Child>
+            <Child TypeName="DocRecordFieldItem">
+              <Properties>
+                <ColumnName>Список трасс</ColumnName>
+                <Value>Т.875,Т.89,Т.88,Т.87,Т.4,Т.22,Т.23,Т.24,Т.25,Т.26,Т.27,Т.28,Т.29,Т.30,Т.31,Т.32,Т.33,Т.34,Т.35,Т.36,Т.37,Т.38,Т.39,Т.41,Т.42,Т.43,Т.860,Т.927,Т.928</Value>
+              </Properties>
+            </Child>
+            <Child TypeName="DocRecordFieldItem">
+              <Properties>
+                <ColumnName>Марка</ColumnName>
+                <Value>ВВГнг-FRLS</Value>
+              </Properties>
+            </Child>
+            <Child TypeName="DocRecordFieldItem">
+              <Properties>
+                <ColumnName>NxS</ColumnName>
+                <Value>3x2.5</Value>
+              </Properties>
+            </Child>
+            <Child TypeName="DocRecordFieldItem">
+              <Properties>
+                <ColumnName>Длина</ColumnName>
+                <Value>46</Value>
+              </Properties>
+            </Child>
+            <Child TypeName="DocRecordFieldItem">
+              <Properties>
+                <ColumnName>РУ</ColumnName>
+                <Value>ППУ2</Value>
+              </Properties>
+            </Child>
+            <Child TypeName="DocRecordFieldItem">
+              <Properties>
+                <ColumnName>ТО</ColumnName>
+                <Value>QF7</Value>
+              </Properties>
+            </Child>
+          </Children>
+        </Child>
+        <Child TypeName="DocRecordItem">
+          <Properties>
+            <IsCategorized>False</IsCategorized>
+          </Properties>
+          <Children>
+            <Child TypeName="DocRecordFieldItem">
+              <Properties>
+                <ColumnName>Позиция</ColumnName>
+                <Value>н.2-203 ОВ</Value>
+              </Properties>
+            </Child>
+            <Child TypeName="DocRecordFieldItem">
+              <Properties>
+                <ColumnName>Начало</ColumnName>
+                <Value>ППУ2</Value>
+              </Properties>
+            </Child>
+            <Child TypeName="DocRecordFieldItem">
+              <Properties>
+                <ColumnName>Конец</ColumnName>
+                <Value>2-203 ОВ</Value>
+              </Properties>
+            </Child>
+            <Child TypeName="DocRecordFieldItem">
+              <Properties>
+                <ColumnName>Список трасс</ColumnName>
+                <Value>Т.875,Т.89,Т.88,Т.87,Т.4,Т.22,Т.23,Т.24,Т.25,Т.26,Т.27,Т.28,Т.29,Т.30,Т.31,Т.32,Т.33,Т.34,Т.35,Т.36,Т.37,Т.38,Т.39,Т.41,Т.42,Т.862,Т.929</Value>
+              </Properties>
+            </Child>
+            <Child TypeName="DocRecordFieldItem">
+              <Properties>
+                <ColumnName>Марка</ColumnName>
+                <Value>ВВГнг-FRLS</Value>
+              </Properties>
+            </Child>
+            <Child TypeName="DocRecordFieldItem">
+              <Properties>
+                <ColumnName>NxS</ColumnName>
+                <Value>3x2.5</Value>
+              </Properties>
+            </Child>
+            <Child TypeName="DocRecordFieldItem">
+              <Properties>
+                <ColumnName>Длина</ColumnName>
+                <Value>39</Value>
+              </Properties>
+            </Child>
+            <Child TypeName="DocRecordFieldItem">
+              <Properties>
+                <ColumnName>РУ</ColumnName>
+                <Value>ППУ2</Value>
+              </Properties>
+            </Child>
+            <Child TypeName="DocRecordFieldItem">
+              <Properties>
+                <ColumnName>ТО</ColumnName>
+                <Value>QF8</Value>
+              </Properties>
+            </Child>
+          </Children>
+        </Child>
+        <Child TypeName="DocRecordItem">
+          <Properties>
+            <IsCategorized>False</IsCategorized>
+          </Properties>
+          <Children>
+            <Child TypeName="DocRecordFieldItem">
+              <Properties>
+                <ColumnName>Позиция</ColumnName>
+                <Value>н.3-214 ОВ</Value>
+              </Properties>
+            </Child>
+            <Child TypeName="DocRecordFieldItem">
+              <Properties>
+                <ColumnName>Начало</ColumnName>
+                <Value>ППУ2</Value>
+              </Properties>
+            </Child>
+            <Child TypeName="DocRecordFieldItem">
+              <Properties>
+                <ColumnName>Конец</ColumnName>
+                <Value>3-214 ОВ</Value>
+              </Properties>
+            </Child>
+            <Child TypeName="DocRecordFieldItem">
+              <Properties>
+                <ColumnName>Список трасс</ColumnName>
+                <Value>Т.875,Т.89,Т.88,Т.87,Т.4,Т.22,Т.23,Т.24,Т.25,Т.26,Т.27,Т.28,Т.29,Т.30,Т.31,Т.32,Т.33,Т.34,Т.35,Т.218,Т.219,Т.628,Т.632,Т.634,Т.636,Т.853,Т.854,Т.855,Т.930</Value>
+              </Properties>
+            </Child>
+            <Child TypeName="DocRecordFieldItem">
+              <Properties>
+                <ColumnName>Марка</ColumnName>
+                <Value>ВВГнг-FRLS</Value>
+              </Properties>
+            </Child>
+            <Child TypeName="DocRecordFieldItem">
+              <Properties>
+                <ColumnName>NxS</ColumnName>
+                <Value>3x2.5</Value>
+              </Properties>
+            </Child>
+            <Child TypeName="DocRecordFieldItem">
+              <Properties>
+                <ColumnName>Длина</ColumnName>
+                <Value>47</Value>
+              </Properties>
+            </Child>
+            <Child TypeName="DocRecordFieldItem">
+              <Properties>
+                <ColumnName>РУ</ColumnName>
+                <Value>ППУ2</Value>
+              </Properties>
+            </Child>
+            <Child TypeName="DocRecordFieldItem">
+              <Properties>
+                <ColumnName>ТО</ColumnName>
+                <Value>QF9</Value>
+              </Properties>
+            </Child>
+          </Children>
+        </Child>
+        <Child TypeName="DocRecordItem">
+          <Properties>
+            <IsCategorized>False</IsCategorized>
+          </Properties>
+          <Children>
+            <Child TypeName="DocRecordFieldItem">
+              <Properties>
+                <ColumnName>Позиция</ColumnName>
+                <Value>н.3-215 ОВ</Value>
+              </Properties>
+            </Child>
+            <Child TypeName="DocRecordFieldItem">
+              <Properties>
+                <ColumnName>Начало</ColumnName>
+                <Value>ППУ2</Value>
+              </Properties>
+            </Child>
+            <Child TypeName="DocRecordFieldItem">
+              <Properties>
+                <ColumnName>Конец</ColumnName>
+                <Value>3-215 ОВ</Value>
+              </Properties>
+            </Child>
+            <Child TypeName="DocRecordFieldItem">
+              <Properties>
+                <ColumnName>Список трасс</ColumnName>
+                <Value>Т.875,Т.89,Т.88,Т.87,Т.4,Т.22,Т.23,Т.24,Т.25,Т.26,Т.27,Т.28,Т.29,Т.30,Т.31,Т.32,Т.33,Т.34,Т.35,Т.218,Т.857,Т.931</Value>
+              </Properties>
+            </Child>
+            <Child TypeName="DocRecordFieldItem">
+              <Properties>
+                <ColumnName>Марка</ColumnName>
+                <Value>ВВГнг-FRLS</Value>
+              </Properties>
+            </Child>
+            <Child TypeName="DocRecordFieldItem">
+              <Properties>
+                <ColumnName>NxS</ColumnName>
+                <Value>3x2.5</Value>
+              </Properties>
+            </Child>
+            <Child TypeName="DocRecordFieldItem">
+              <Properties>
+                <ColumnName>Длина</ColumnName>
+                <Value>40</Value>
+              </Properties>
+            </Child>
+            <Child TypeName="DocRecordFieldItem">
+              <Properties>
+                <ColumnName>РУ</ColumnName>
+                <Value>ППУ2</Value>
+              </Properties>
+            </Child>
+            <Child TypeName="DocRecordFieldItem">
+              <Properties>
+                <ColumnName>ТО</ColumnName>
+                <Value>QF10</Value>
+              </Properties>
+            </Child>
+          </Children>
+        </Child>
+        <Child TypeName="DocRecordItem">
+          <Properties>
+            <IsCategorized>False</IsCategorized>
+          </Properties>
+          <Children>
+            <Child TypeName="DocRecordFieldItem">
+              <Properties>
+                <ColumnName>Позиция</ColumnName>
+                <Value>н.3-221 ОВ</Value>
+              </Properties>
+            </Child>
+            <Child TypeName="DocRecordFieldItem">
+              <Properties>
+                <ColumnName>Начало</ColumnName>
+                <Value>ППУ2</Value>
+              </Properties>
+            </Child>
+            <Child TypeName="DocRecordFieldItem">
+              <Properties>
+                <ColumnName>Конец</ColumnName>
+                <Value>3-221 ОВ</Value>
+              </Properties>
+            </Child>
+            <Child TypeName="DocRecordFieldItem">
+              <Properties>
+                <ColumnName>Список трасс</ColumnName>
+                <Value>Т.875,Т.89,Т.88,Т.87,Т.4,Т.22,Т.23,Т.24,Т.25,Т.26,Т.27,Т.28,Т.29,Т.30,Т.31,Т.32,Т.33,Т.34,Т.35,Т.36,Т.37,Т.105,Т.106,Т.208,Т.209,Т.210,Т.211,Т.824,Т.868,Т.869,Т.932</Value>
+              </Properties>
+            </Child>
+            <Child TypeName="DocRecordFieldItem">
+              <Properties>
+                <ColumnName>Марка</ColumnName>
+                <Value>ВВГнг-FRLS</Value>
+              </Properties>
+            </Child>
+            <Child TypeName="DocRecordFieldItem">
+              <Properties>
+                <ColumnName>NxS</ColumnName>
+                <Value>3x2.5</Value>
+              </Properties>
+            </Child>
+            <Child TypeName="DocRecordFieldItem">
+              <Properties>
+                <ColumnName>Длина</ColumnName>
+                <Value>55</Value>
+              </Properties>
+            </Child>
+            <Child TypeName="DocRecordFieldItem">
+              <Properties>
+                <ColumnName>РУ</ColumnName>
+                <Value>ППУ2</Value>
+              </Properties>
+            </Child>
+            <Child TypeName="DocRecordFieldItem">
+              <Properties>
+                <ColumnName>ТО</ColumnName>
+                <Value>QF11</Value>
+              </Properties>
+            </Child>
+          </Children>
+        </Child>
+        <Child TypeName="DocRecordItem">
+          <Properties>
+            <IsCategorized>False</IsCategorized>
+          </Properties>
+          <Children>
+            <Child TypeName="DocRecordFieldItem">
+              <Properties>
+                <ColumnName>Позиция</ColumnName>
+                <Value>н.1-105 ОВ</Value>
+              </Properties>
+            </Child>
+            <Child TypeName="DocRecordFieldItem">
+              <Properties>
+                <ColumnName>Начало</ColumnName>
+                <Value>ППУ2</Value>
+              </Properties>
+            </Child>
+            <Child TypeName="DocRecordFieldItem">
+              <Properties>
+                <ColumnName>Конец</ColumnName>
+                <Value>1-105 ОВ</Value>
+              </Properties>
+            </Child>
+            <Child TypeName="DocRecordFieldItem">
+              <Properties>
+                <ColumnName>Список трасс</ColumnName>
+                <Value>Т.875,Т.89,Т.88,Т.87,Т.4,Т.6,Т.7,Т.8,Т.9,Т.10,Т.11,Т.933,Т.934,Т.935</Value>
+              </Properties>
+            </Child>
+            <Child TypeName="DocRecordFieldItem">
+              <Properties>
+                <ColumnName>Марка</ColumnName>
+                <Value>ВВГнг-FRLS</Value>
+              </Properties>
+            </Child>
+            <Child TypeName="DocRecordFieldItem">
+              <Properties>
+                <ColumnName>NxS</ColumnName>
+                <Value>3x2.5</Value>
+              </Properties>
+            </Child>
+            <Child TypeName="DocRecordFieldItem">
+              <Properties>
+                <ColumnName>Длина</ColumnName>
+                <Value>26</Value>
+              </Properties>
+            </Child>
+            <Child TypeName="DocRecordFieldItem">
+              <Properties>
+                <ColumnName>РУ</ColumnName>
+                <Value>ППУ2</Value>
+              </Properties>
+            </Child>
+            <Child TypeName="DocRecordFieldItem">
+              <Properties>
+                <ColumnName>ТО</ColumnName>
+                <Value>QF12</Value>
+              </Properties>
+            </Child>
+          </Children>
+        </Child>
+        <Child TypeName="DocRecordItem">
+          <Properties>
+            <IsCategorized>False</IsCategorized>
+          </Properties>
+          <Children>
+            <Child TypeName="DocRecordFieldItem">
+              <Properties>
+                <ColumnName>Позиция</ColumnName>
+                <Value>н.1-104 ОВ</Value>
+              </Properties>
+            </Child>
+            <Child TypeName="DocRecordFieldItem">
+              <Properties>
+                <ColumnName>Начало</ColumnName>
+                <Value>ППУ2</Value>
+              </Properties>
+            </Child>
+            <Child TypeName="DocRecordFieldItem">
+              <Properties>
+                <ColumnName>Конец</ColumnName>
+                <Value>1-104 ОВ</Value>
+              </Properties>
+            </Child>
+            <Child TypeName="DocRecordFieldItem">
+              <Properties>
+                <ColumnName>Список трасс</ColumnName>
+                <Value>Т.875,Т.89,Т.88,Т.87,Т.4,Т.6,Т.7,Т.8,Т.9,Т.10,Т.11,Т.933,Т.936</Value>
+              </Properties>
+            </Child>
+            <Child TypeName="DocRecordFieldItem">
+              <Properties>
+                <ColumnName>Марка</ColumnName>
+                <Value>ВВГнг-FRLS</Value>
+              </Properties>
+            </Child>
+            <Child TypeName="DocRecordFieldItem">
+              <Properties>
+                <ColumnName>NxS</ColumnName>
+                <Value>3x2.5</Value>
+              </Properties>
+            </Child>
+            <Child TypeName="DocRecordFieldItem">
+              <Properties>
+                <ColumnName>Длина</ColumnName>
+                <Value>26</Value>
+              </Properties>
+            </Child>
+            <Child TypeName="DocRecordFieldItem">
+              <Properties>
+                <ColumnName>РУ</ColumnName>
+                <Value>ППУ2</Value>
+              </Properties>
+            </Child>
+            <Child TypeName="DocRecordFieldItem">
+              <Properties>
+                <ColumnName>ТО</ColumnName>
+                <Value>QF13</Value>
+              </Properties>
+            </Child>
+          </Children>
+        </Child>
+        <Child TypeName="DocRecordItem">
+          <Properties>
+            <IsCategorized>False</IsCategorized>
+          </Properties>
+          <Children>
+            <Child TypeName="DocRecordFieldItem">
+              <Properties>
+                <ColumnName>Позиция</ColumnName>
+                <Value>н.1-109 ОВ</Value>
+              </Properties>
+            </Child>
+            <Child TypeName="DocRecordFieldItem">
+              <Properties>
+                <ColumnName>Начало</ColumnName>
+                <Value>ППУ2</Value>
+              </Properties>
+            </Child>
+            <Child TypeName="DocRecordFieldItem">
+              <Properties>
+                <ColumnName>Конец</ColumnName>
+                <Value>1-109 ОВ</Value>
+              </Properties>
+            </Child>
+            <Child TypeName="DocRecordFieldItem">
+              <Properties>
+                <ColumnName>Список трасс</ColumnName>
+                <Value>Т.875,Т.89,Т.88,Т.87,Т.4,Т.6,Т.7,Т.8,Т.937</Value>
+              </Properties>
+            </Child>
+            <Child TypeName="DocRecordFieldItem">
+              <Properties>
+                <ColumnName>Марка</ColumnName>
+                <Value>ВВГнг-FRLS</Value>
+              </Properties>
+            </Child>
+            <Child TypeName="DocRecordFieldItem">
+              <Properties>
+                <ColumnName>NxS</ColumnName>
+                <Value>3x2.5</Value>
+              </Properties>
+            </Child>
+            <Child TypeName="DocRecordFieldItem">
+              <Properties>
+                <ColumnName>Длина</ColumnName>
+                <Value>20</Value>
+              </Properties>
+            </Child>
+            <Child TypeName="DocRecordFieldItem">
+              <Properties>
+                <ColumnName>РУ</ColumnName>
+                <Value>ППУ2</Value>
+              </Properties>
+            </Child>
+            <Child TypeName="DocRecordFieldItem">
+              <Properties>
+                <ColumnName>ТО</ColumnName>
+                <Value>QF14</Value>
+              </Properties>
+            </Child>
+          </Children>
+        </Child>
+        <Child TypeName="DocRecordItem">
+          <Properties>
+            <IsCategorized>False</IsCategorized>
+          </Properties>
+          <Children>
+            <Child TypeName="DocRecordFieldItem">
+              <Properties>
+                <ColumnName>Позиция</ColumnName>
+                <Value>н.1-107 ОВ</Value>
+              </Properties>
+            </Child>
+            <Child TypeName="DocRecordFieldItem">
+              <Properties>
+                <ColumnName>Начало</ColumnName>
+                <Value>ППУ2</Value>
+              </Properties>
+            </Child>
+            <Child TypeName="DocRecordFieldItem">
+              <Properties>
+                <ColumnName>Конец</ColumnName>
+                <Value>1-107 ОВ</Value>
+              </Properties>
+            </Child>
+            <Child TypeName="DocRecordFieldItem">
+              <Properties>
+                <ColumnName>Список трасс</ColumnName>
+                <Value>Т.875,Т.89,Т.88,Т.87,Т.4,Т.6,Т.7,Т.8,Т.9,Т.10,Т.938,Т.939</Value>
+              </Properties>
+            </Child>
+            <Child TypeName="DocRecordFieldItem">
+              <Properties>
+                <ColumnName>Марка</ColumnName>
+                <Value>ВВГнг-FRLS</Value>
+              </Properties>
+            </Child>
+            <Child TypeName="DocRecordFieldItem">
+              <Properties>
+                <ColumnName>NxS</ColumnName>
+                <Value>3x2.5</Value>
+              </Properties>
+            </Child>
+            <Child TypeName="DocRecordFieldItem">
+              <Properties>
+                <ColumnName>Длина</ColumnName>
+                <Value>22</Value>
+              </Properties>
+            </Child>
+            <Child TypeName="DocRecordFieldItem">
+              <Properties>
+                <ColumnName>РУ</ColumnName>
+                <Value>ППУ2</Value>
+              </Properties>
+            </Child>
+            <Child TypeName="DocRecordFieldItem">
+              <Properties>
+                <ColumnName>ТО</ColumnName>
+                <Value>QF15</Value>
+              </Properties>
+            </Child>
+          </Children>
+        </Child>
+        <Child TypeName="DocRecordItem">
+          <Properties>
+            <IsCategorized>False</IsCategorized>
+          </Properties>
+          <Children>
+            <Child TypeName="DocRecordFieldItem">
+              <Properties>
+                <ColumnName>Позиция</ColumnName>
+                <Value>н.1-206 ОВ</Value>
+              </Properties>
+            </Child>
+            <Child TypeName="DocRecordFieldItem">
+              <Properties>
+                <ColumnName>Начало</ColumnName>
+                <Value>ППУ2</Value>
+              </Properties>
+            </Child>
+            <Child TypeName="DocRecordFieldItem">
+              <Properties>
+                <ColumnName>Конец</ColumnName>
+                <Value>1-206 ОВ</Value>
+              </Properties>
+            </Child>
+            <Child TypeName="DocRecordFieldItem">
+              <Properties>
+                <ColumnName>Список трасс</ColumnName>
+                <Value>Т.875,Т.89,Т.88,Т.87,Т.4,Т.22,Т.23,Т.24,Т.25,Т.26,Т.27,Т.28,Т.29,Т.30,Т.31,Т.32,Т.33,Т.34,Т.35,Т.36,Т.37,Т.38,Т.39,Т.62,Т.940</Value>
+              </Properties>
+            </Child>
+            <Child TypeName="DocRecordFieldItem">
+              <Properties>
+                <ColumnName>Марка</ColumnName>
+                <Value>ВВГнг-FRLS</Value>
+              </Properties>
+            </Child>
+            <Child TypeName="DocRecordFieldItem">
+              <Properties>
+                <ColumnName>NxS</ColumnName>
+                <Value>3x2.5</Value>
+              </Properties>
+            </Child>
+            <Child TypeName="DocRecordFieldItem">
+              <Properties>
+                <ColumnName>Длина</ColumnName>
+                <Value>43</Value>
+              </Properties>
+            </Child>
+            <Child TypeName="DocRecordFieldItem">
+              <Properties>
+                <ColumnName>РУ</ColumnName>
+                <Value>ППУ2</Value>
+              </Properties>
+            </Child>
+            <Child TypeName="DocRecordFieldItem">
+              <Properties>
+                <ColumnName>ТО</ColumnName>
+                <Value>QF16</Value>
+              </Properties>
+            </Child>
+          </Children>
+        </Child>
+        <Child TypeName="DocRecordItem">
+          <Properties>
+            <IsCategorized>False</IsCategorized>
+          </Properties>
+          <Children>
+            <Child TypeName="DocRecordFieldItem">
+              <Properties>
+                <ColumnName>Позиция</ColumnName>
+                <Value>н.2-210 ОВ</Value>
+              </Properties>
+            </Child>
+            <Child TypeName="DocRecordFieldItem">
+              <Properties>
+                <ColumnName>Начало</ColumnName>
+                <Value>ППУ2</Value>
+              </Properties>
+            </Child>
+            <Child TypeName="DocRecordFieldItem">
+              <Properties>
+                <ColumnName>Конец</ColumnName>
+                <Value>2-210 ОВ</Value>
+              </Properties>
+            </Child>
+            <Child TypeName="DocRecordFieldItem">
+              <Properties>
+                <ColumnName>Список трасс</ColumnName>
+                <Value>Т.875,Т.89,Т.88,Т.87,Т.4,Т.22,Т.23,Т.24,Т.25,Т.26,Т.27,Т.28,Т.29,Т.30,Т.31,Т.32,Т.33,Т.34,Т.35,Т.36,Т.37,Т.38,Т.39,Т.62,Т.63,Т.66,Т.153,Т.154,Т.155,Т.156,Т.941,Т.942</Value>
+              </Properties>
+            </Child>
+            <Child TypeName="DocRecordFieldItem">
+              <Properties>
+                <ColumnName>Марка</ColumnName>
+                <Value>ВВГнг-FRLS</Value>
+              </Properties>
+            </Child>
+            <Child TypeName="DocRecordFieldItem">
+              <Properties>
+                <ColumnName>NxS</ColumnName>
+                <Value>3x2.5</Value>
+              </Properties>
+            </Child>
+            <Child TypeName="DocRecordFieldItem">
+              <Properties>
+                <ColumnName>Длина</ColumnName>
+                <Value>52</Value>
+              </Properties>
+            </Child>
+            <Child TypeName="DocRecordFieldItem">
+              <Properties>
+                <ColumnName>РУ</ColumnName>
+                <Value>ППУ2</Value>
+              </Properties>
+            </Child>
+            <Child TypeName="DocRecordFieldItem">
+              <Properties>
+                <ColumnName>ТО</ColumnName>
+                <Value>QF17</Value>
+              </Properties>
+            </Child>
+          </Children>
+        </Child>
+        <Child TypeName="DocRecordItem">
+          <Properties>
+            <IsCategorized>False</IsCategorized>
+          </Properties>
+          <Children>
+            <Child TypeName="DocRecordFieldItem">
+              <Properties>
+                <ColumnName>Позиция</ColumnName>
+                <Value>н.1-211 ОВ</Value>
+              </Properties>
+            </Child>
+            <Child TypeName="DocRecordFieldItem">
+              <Properties>
+                <ColumnName>Начало</ColumnName>
+                <Value>ППУ2</Value>
+              </Properties>
+            </Child>
+            <Child TypeName="DocRecordFieldItem">
+              <Properties>
+                <ColumnName>Конец</ColumnName>
+                <Value>1-211 ОВ</Value>
+              </Properties>
+            </Child>
+            <Child TypeName="DocRecordFieldItem">
+              <Properties>
+                <ColumnName>Список трасс</ColumnName>
+                <Value>Т.875,Т.89,Т.88,Т.87,Т.4,Т.22,Т.23,Т.24,Т.25,Т.26,Т.27,Т.28,Т.29,Т.30,Т.31,Т.32,Т.33,Т.34,Т.35,Т.36,Т.37,Т.38,Т.39,Т.62,Т.63,Т.66,Т.153,Т.154,Т.155,Т.156,Т.157,Т.943</Value>
+              </Properties>
+            </Child>
+            <Child TypeName="DocRecordFieldItem">
+              <Properties>
+                <ColumnName>Марка</ColumnName>
+                <Value>ВВГнг-FRLS</Value>
+              </Properties>
+            </Child>
+            <Child TypeName="DocRecordFieldItem">
+              <Properties>
+                <ColumnName>NxS</ColumnName>
+                <Value>3x2.5</Value>
+              </Properties>
+            </Child>
+            <Child TypeName="DocRecordFieldItem">
+              <Properties>
+                <ColumnName>Длина</ColumnName>
+                <Value>52</Value>
+              </Properties>
+            </Child>
+            <Child TypeName="DocRecordFieldItem">
+              <Properties>
+                <ColumnName>РУ</ColumnName>
+                <Value>ППУ2</Value>
+              </Properties>
+            </Child>
+            <Child TypeName="DocRecordFieldItem">
+              <Properties>
+                <ColumnName>ТО</ColumnName>
+                <Value>QF18</Value>
+              </Properties>
+            </Child>
+          </Children>
+        </Child>
+        <Child TypeName="DocRecordItem">
+          <Properties>
+            <IsCategorized>False</IsCategorized>
+          </Properties>
+          <Children>
+            <Child TypeName="DocRecordFieldItem">
+              <Properties>
+                <ColumnName>Позиция</ColumnName>
+                <Value>н.3-102 ОВ</Value>
+              </Properties>
+            </Child>
+            <Child TypeName="DocRecordFieldItem">
+              <Properties>
+                <ColumnName>Начало</ColumnName>
+                <Value>ППУ2</Value>
+              </Properties>
+            </Child>
+            <Child TypeName="DocRecordFieldItem">
+              <Properties>
+                <ColumnName>Конец</ColumnName>
+                <Value>3-102 ОВ</Value>
+              </Properties>
+            </Child>
+            <Child TypeName="DocRecordFieldItem">
+              <Properties>
+                <ColumnName>Список трасс</ColumnName>
+                <Value>Т.875,Т.89,Т.88,Т.87,Т.4,Т.6,Т.7,Т.8,Т.9,Т.10,Т.11,Т.12,Т.13,Т.14,Т.15,Т.16,Т.848,Т.920,Т.944</Value>
+              </Properties>
+            </Child>
+            <Child TypeName="DocRecordFieldItem">
+              <Properties>
+                <ColumnName>Марка</ColumnName>
+                <Value>ВВГнг-FRLS</Value>
+              </Properties>
+            </Child>
+            <Child TypeName="DocRecordFieldItem">
+              <Properties>
+                <ColumnName>NxS</ColumnName>
+                <Value>3x2.5</Value>
+              </Properties>
+            </Child>
+            <Child TypeName="DocRecordFieldItem">
+              <Properties>
+                <ColumnName>Длина</ColumnName>
+                <Value>31</Value>
+              </Properties>
+            </Child>
+            <Child TypeName="DocRecordFieldItem">
+              <Properties>
+                <ColumnName>РУ</ColumnName>
+                <Value>ППУ2</Value>
+              </Properties>
+            </Child>
+            <Child TypeName="DocRecordFieldItem">
+              <Properties>
+                <ColumnName>ТО</ColumnName>
+                <Value>QF19</Value>
+              </Properties>
+            </Child>
+          </Children>
+        </Child>
+        <Child TypeName="DocRecordItem">
+          <Properties>
+            <IsCategorized>False</IsCategorized>
+          </Properties>
+          <Children>
+            <Child TypeName="DocRecordFieldItem">
+              <Properties>
+                <ColumnName>Позиция</ColumnName>
+                <Value>н.3-103 ОВ</Value>
+              </Properties>
+            </Child>
+            <Child TypeName="DocRecordFieldItem">
+              <Properties>
+                <ColumnName>Начало</ColumnName>
+                <Value>ППУ2</Value>
+              </Properties>
+            </Child>
+            <Child TypeName="DocRecordFieldItem">
+              <Properties>
+                <ColumnName>Конец</ColumnName>
+                <Value>3-103 ОВ</Value>
+              </Properties>
+            </Child>
+            <Child TypeName="DocRecordFieldItem">
+              <Properties>
+                <ColumnName>Список трасс</ColumnName>
+                <Value>Т.875,Т.89,Т.88,Т.87,Т.4,Т.6,Т.7,Т.8,Т.9,Т.10,Т.11,Т.12,Т.13,Т.850,Т.945</Value>
+              </Properties>
+            </Child>
+            <Child TypeName="DocRecordFieldItem">
+              <Properties>
+                <ColumnName>Марка</ColumnName>
+                <Value>ВВГнг-FRLS</Value>
+              </Properties>
+            </Child>
+            <Child TypeName="DocRecordFieldItem">
+              <Properties>
+                <ColumnName>NxS</ColumnName>
+                <Value>3x2.5</Value>
+              </Properties>
+            </Child>
+            <Child TypeName="DocRecordFieldItem">
+              <Properties>
+                <ColumnName>Длина</ColumnName>
+                <Value>27</Value>
+              </Properties>
+            </Child>
+            <Child TypeName="DocRecordFieldItem">
+              <Properties>
+                <ColumnName>РУ</ColumnName>
+                <Value>ППУ2</Value>
+              </Properties>
+            </Child>
+            <Child TypeName="DocRecordFieldItem">
+              <Properties>
+                <ColumnName>ТО</ColumnName>
+                <Value>QF20</Value>
+              </Properties>
+            </Child>
+          </Children>
+        </Child>
+        <Child TypeName="DocRecordItem">
+          <Properties>
+            <IsCategorized>False</IsCategorized>
+          </Properties>
+          <Children>
+            <Child TypeName="DocRecordFieldItem">
+              <Properties>
+                <ColumnName>Позиция</ColumnName>
+                <Value>н.2-107 ОВ</Value>
+              </Properties>
+            </Child>
+            <Child TypeName="DocRecordFieldItem">
+              <Properties>
+                <ColumnName>Начало</ColumnName>
+                <Value>ППУ2</Value>
+              </Properties>
+            </Child>
+            <Child TypeName="DocRecordFieldItem">
+              <Properties>
+                <ColumnName>Конец</ColumnName>
+                <Value>2-107 ОВ</Value>
+              </Properties>
+            </Child>
+            <Child TypeName="DocRecordFieldItem">
+              <Properties>
+                <ColumnName>Список трасс</ColumnName>
+                <Value>Т.875,Т.89,Т.88,Т.87,Т.4,Т.6,Т.7,Т.8,Т.9,Т.10,Т.938,Т.946</Value>
+              </Properties>
+            </Child>
+            <Child TypeName="DocRecordFieldItem">
+              <Properties>
+                <ColumnName>Марка</ColumnName>
+                <Value>ВВГнг-FRLS</Value>
+              </Properties>
+            </Child>
+            <Child TypeName="DocRecordFieldItem">
+              <Properties>
+                <ColumnName>NxS</ColumnName>
+                <Value>3x2.5</Value>
+              </Properties>
+            </Child>
+            <Child TypeName="DocRecordFieldItem">
+              <Properties>
+                <ColumnName>Длина</ColumnName>
+                <Value>18</Value>
+              </Properties>
+            </Child>
+            <Child TypeName="DocRecordFieldItem">
+              <Properties>
+                <ColumnName>РУ</ColumnName>
+                <Value>ППУ2</Value>
+              </Properties>
+            </Child>
+            <Child TypeName="DocRecordFieldItem">
+              <Properties>
+                <ColumnName>ТО</ColumnName>
+                <Value>QF21</Value>
+              </Properties>
+            </Child>
+          </Children>
+        </Child>
+        <Child TypeName="DocRecordItem">
+          <Properties>
+            <IsCategorized>False</IsCategorized>
+          </Properties>
+          <Children>
+            <Child TypeName="DocRecordFieldItem">
+              <Properties>
+                <ColumnName>Позиция</ColumnName>
+                <Value>н.2-110 ОВ</Value>
+              </Properties>
+            </Child>
+            <Child TypeName="DocRecordFieldItem">
+              <Properties>
+                <ColumnName>Начало</ColumnName>
+                <Value>ППУ2</Value>
+              </Properties>
+            </Child>
+            <Child TypeName="DocRecordFieldItem">
+              <Properties>
+                <ColumnName>Конец</ColumnName>
+                <Value>2-110 ОВ</Value>
+              </Properties>
+            </Child>
+            <Child TypeName="DocRecordFieldItem">
+              <Properties>
+                <ColumnName>Список трасс</ColumnName>
+                <Value>Т.875,Т.89,Т.88,Т.87,Т.4,Т.6,Т.865,Т.866,Т.947</Value>
+              </Properties>
+            </Child>
+            <Child TypeName="DocRecordFieldItem">
+              <Properties>
+                <ColumnName>Марка</ColumnName>
+                <Value>ВВГнг-FRLS</Value>
+              </Properties>
+            </Child>
+            <Child TypeName="DocRecordFieldItem">
+              <Properties>
+                <ColumnName>NxS</ColumnName>
+                <Value>3x2.5</Value>
+              </Properties>
+            </Child>
+            <Child TypeName="DocRecordFieldItem">
+              <Properties>
+                <ColumnName>Длина</ColumnName>
+                <Value>13</Value>
+              </Properties>
+            </Child>
+            <Child TypeName="DocRecordFieldItem">
+              <Properties>
+                <ColumnName>РУ</ColumnName>
+                <Value>ППУ2</Value>
+              </Properties>
+            </Child>
+            <Child TypeName="DocRecordFieldItem">
+              <Properties>
+                <ColumnName>ТО</ColumnName>
+                <Value>QF22</Value>
+              </Properties>
+            </Child>
+          </Children>
+        </Child>
+        <Child TypeName="DocRecordItem">
+          <Properties>
+            <IsCategorized>False</IsCategorized>
+          </Properties>
+          <Children>
+            <Child TypeName="DocRecordFieldItem">
+              <Properties>
+                <ColumnName>Позиция</ColumnName>
+                <Value>н.2-113 ОВ</Value>
+              </Properties>
+            </Child>
+            <Child TypeName="DocRecordFieldItem">
+              <Properties>
+                <ColumnName>Начало</ColumnName>
+                <Value>ППУ2</Value>
+              </Properties>
+            </Child>
+            <Child TypeName="DocRecordFieldItem">
+              <Properties>
+                <ColumnName>Конец</ColumnName>
+                <Value>2-113 ОВ</Value>
+              </Properties>
+            </Child>
+            <Child TypeName="DocRecordFieldItem">
+              <Properties>
+                <ColumnName>Список трасс</ColumnName>
+                <Value>Т.875,Т.89,Т.88,Т.87,Т.4,Т.22,Т.23,Т.24,Т.25,Т.26,Т.27,Т.28,Т.29,Т.30,Т.31,Т.32,Т.33,Т.34,Т.98,Т.99,Т.100,Т.101,Т.842,Т.948</Value>
+              </Properties>
+            </Child>
+            <Child TypeName="DocRecordFieldItem">
+              <Properties>
+                <ColumnName>Марка</ColumnName>
+                <Value>ВВГнг-FRLS</Value>
+              </Properties>
+            </Child>
+            <Child TypeName="DocRecordFieldItem">
+              <Properties>
+                <ColumnName>NxS</ColumnName>
+                <Value>3x2.5</Value>
+              </Properties>
+            </Child>
+            <Child TypeName="DocRecordFieldItem">
+              <Properties>
+                <ColumnName>Длина</ColumnName>
+                <Value>42</Value>
+              </Properties>
+            </Child>
+            <Child TypeName="DocRecordFieldItem">
+              <Properties>
+                <ColumnName>РУ</ColumnName>
+                <Value>ППУ2</Value>
+              </Properties>
+            </Child>
+            <Child TypeName="DocRecordFieldItem">
+              <Properties>
+                <ColumnName>ТО</ColumnName>
+                <Value>QF23</Value>
+              </Properties>
+            </Child>
+          </Children>
+        </Child>
+        <Child TypeName="DocRecordItem">
+          <Properties>
+            <IsCategorized>False</IsCategorized>
+          </Properties>
+          <Children>
+            <Child TypeName="DocRecordFieldItem">
+              <Properties>
+                <ColumnName>Позиция</ColumnName>
+                <Value>н.3-114 ОВ</Value>
+              </Properties>
+            </Child>
+            <Child TypeName="DocRecordFieldItem">
+              <Properties>
+                <ColumnName>Начало</ColumnName>
+                <Value>ППУ2</Value>
+              </Properties>
+            </Child>
+            <Child TypeName="DocRecordFieldItem">
+              <Properties>
+                <ColumnName>Конец</ColumnName>
+                <Value>3-114 ОВ</Value>
+              </Properties>
+            </Child>
+            <Child TypeName="DocRecordFieldItem">
+              <Properties>
+                <ColumnName>Список трасс</ColumnName>
+                <Value>Т.875,Т.89,Т.88,Т.87,Т.4,Т.22,Т.23,Т.24,Т.25,Т.26,Т.27,Т.28,Т.29,Т.30,Т.31,Т.32,Т.33,Т.34,Т.98,Т.99,Т.845,Т.949</Value>
+              </Properties>
+            </Child>
+            <Child TypeName="DocRecordFieldItem">
+              <Properties>
+                <ColumnName>Марка</ColumnName>
+                <Value>ВВГнг-FRLS</Value>
+              </Properties>
+            </Child>
+            <Child TypeName="DocRecordFieldItem">
+              <Properties>
+                <ColumnName>NxS</ColumnName>
+                <Value>3x2.5</Value>
+              </Properties>
+            </Child>
+            <Child TypeName="DocRecordFieldItem">
+              <Properties>
+                <ColumnName>Длина</ColumnName>
+                <Value>30</Value>
+              </Properties>
+            </Child>
+            <Child TypeName="DocRecordFieldItem">
+              <Properties>
+                <ColumnName>РУ</ColumnName>
+                <Value>ППУ2</Value>
+              </Properties>
+            </Child>
+            <Child TypeName="DocRecordFieldItem">
+              <Properties>
+                <ColumnName>ТО</ColumnName>
+                <Value>QF24</Value>
+              </Properties>
+            </Child>
+          </Children>
+        </Child>
+        <Child TypeName="DocRecordItem">
+          <Properties>
+            <IsCategorized>False</IsCategorized>
+          </Properties>
+          <Children>
+            <Child TypeName="DocRecordFieldItem">
+              <Properties>
+                <ColumnName>Позиция</ColumnName>
+                <Value>н.3-120 ОВ</Value>
+              </Properties>
+            </Child>
+            <Child TypeName="DocRecordFieldItem">
+              <Properties>
+                <ColumnName>Начало</ColumnName>
+                <Value>ППУ2</Value>
+              </Properties>
+            </Child>
+            <Child TypeName="DocRecordFieldItem">
+              <Properties>
+                <ColumnName>Конец</ColumnName>
+                <Value>3-120 ОВ</Value>
+              </Properties>
+            </Child>
+            <Child TypeName="DocRecordFieldItem">
+              <Properties>
+                <ColumnName>Список трасс</ColumnName>
+                <Value>Т.875,Т.89,Т.88,Т.87,Т.4,Т.22,Т.55,Т.56,Т.57,Т.58,Т.138,Т.950</Value>
+              </Properties>
+            </Child>
+            <Child TypeName="DocRecordFieldItem">
+              <Properties>
+                <ColumnName>Марка</ColumnName>
+                <Value>ВВГнг-FRLS</Value>
+              </Properties>
+            </Child>
+            <Child TypeName="DocRecordFieldItem">
+              <Properties>
+                <ColumnName>NxS</ColumnName>
+                <Value>3x2.5</Value>
+              </Properties>
+            </Child>
+            <Child TypeName="DocRecordFieldItem">
+              <Properties>
+                <ColumnName>Длина</ColumnName>
+                <Value>14</Value>
+              </Properties>
+            </Child>
+            <Child TypeName="DocRecordFieldItem">
+              <Properties>
+                <ColumnName>РУ</ColumnName>
+                <Value>ППУ2</Value>
+              </Properties>
+            </Child>
+            <Child TypeName="DocRecordFieldItem">
+              <Properties>
+                <ColumnName>ТО</ColumnName>
+                <Value>QF25</Value>
+              </Properties>
+            </Child>
+          </Children>
+        </Child>
+        <Child TypeName="DocRecordItem">
+          <Properties>
+            <IsCategorized>False</IsCategorized>
+          </Properties>
+          <Children>
+            <Child TypeName="DocRecordFieldItem">
+              <Properties>
+                <ColumnName>Позиция</ColumnName>
+                <Value>н.3-202 ОВ</Value>
+              </Properties>
+            </Child>
+            <Child TypeName="DocRecordFieldItem">
+              <Properties>
+                <ColumnName>Начало</ColumnName>
+                <Value>ППУ2</Value>
+              </Properties>
+            </Child>
+            <Child TypeName="DocRecordFieldItem">
+              <Properties>
+                <ColumnName>Конец</ColumnName>
+                <Value>3-202 ОВ</Value>
+              </Properties>
+            </Child>
+            <Child TypeName="DocRecordFieldItem">
+              <Properties>
+                <ColumnName>Список трасс</ColumnName>
+                <Value>Т.875,Т.89,Т.88,Т.87,Т.4,Т.22,Т.23,Т.24,Т.25,Т.26,Т.27,Т.28,Т.29,Т.30,Т.31,Т.32,Т.33,Т.34,Т.35,Т.36,Т.37,Т.38,Т.39,Т.41,Т.42,Т.43,Т.860,Т.927,Т.951</Value>
+              </Properties>
+            </Child>
+            <Child TypeName="DocRecordFieldItem">
+              <Properties>
+                <ColumnName>Марка</ColumnName>
+                <Value>ВВГнг-FRLS</Value>
+              </Properties>
+            </Child>
+            <Child TypeName="DocRecordFieldItem">
+              <Properties>
+                <ColumnName>NxS</ColumnName>
+                <Value>3x2.5</Value>
+              </Properties>
+            </Child>
+            <Child TypeName="DocRecordFieldItem">
+              <Properties>
+                <ColumnName>Длина</ColumnName>
+                <Value>44</Value>
+              </Properties>
+            </Child>
+            <Child TypeName="DocRecordFieldItem">
+              <Properties>
+                <ColumnName>РУ</ColumnName>
+                <Value>ППУ2</Value>
+              </Properties>
+            </Child>
+            <Child TypeName="DocRecordFieldItem">
+              <Properties>
+                <ColumnName>ТО</ColumnName>
+                <Value>QF26</Value>
+              </Properties>
+            </Child>
+          </Children>
+        </Child>
+        <Child TypeName="DocRecordItem">
+          <Properties>
+            <IsCategorized>False</IsCategorized>
+          </Properties>
+          <Children>
+            <Child TypeName="DocRecordFieldItem">
+              <Properties>
+                <ColumnName>Позиция</ColumnName>
+                <Value>н.3-203 ОВ</Value>
+              </Properties>
+            </Child>
+            <Child TypeName="DocRecordFieldItem">
+              <Properties>
+                <ColumnName>Начало</ColumnName>
+                <Value>ППУ2</Value>
+              </Properties>
+            </Child>
+            <Child TypeName="DocRecordFieldItem">
+              <Properties>
+                <ColumnName>Конец</ColumnName>
+                <Value>3-203 ОВ</Value>
+              </Properties>
+            </Child>
+            <Child TypeName="DocRecordFieldItem">
+              <Properties>
+                <ColumnName>Список трасс</ColumnName>
+                <Value>Т.875,Т.89,Т.88,Т.87,Т.4,Т.22,Т.23,Т.24,Т.25,Т.26,Т.27,Т.28,Т.29,Т.30,Т.31,Т.32,Т.33,Т.34,Т.35,Т.36,Т.37,Т.38,Т.39,Т.41,Т.42,Т.862,Т.863,Т.952</Value>
+              </Properties>
+            </Child>
+            <Child TypeName="DocRecordFieldItem">
+              <Properties>
+                <ColumnName>Марка</ColumnName>
+                <Value>ВВГнг-FRLS</Value>
+              </Properties>
+            </Child>
+            <Child TypeName="DocRecordFieldItem">
+              <Properties>
+                <ColumnName>NxS</ColumnName>
+                <Value>3x2.5</Value>
+              </Properties>
+            </Child>
+            <Child TypeName="DocRecordFieldItem">
+              <Properties>
+                <ColumnName>Длина</ColumnName>
+                <Value>41</Value>
+              </Properties>
+            </Child>
+            <Child TypeName="DocRecordFieldItem">
+              <Properties>
+                <ColumnName>РУ</ColumnName>
+                <Value>ППУ2</Value>
+              </Properties>
+            </Child>
+            <Child TypeName="DocRecordFieldItem">
+              <Properties>
+                <ColumnName>ТО</ColumnName>
+                <Value>QF27</Value>
+              </Properties>
+            </Child>
+          </Children>
+        </Child>
+        <Child TypeName="DocRecordItem">
+          <Properties>
+            <IsCategorized>False</IsCategorized>
+          </Properties>
+          <Children>
+            <Child TypeName="DocRecordFieldItem">
+              <Properties>
+                <ColumnName>Позиция</ColumnName>
+                <Value>н.1-209 ОВ</Value>
+              </Properties>
+            </Child>
+            <Child TypeName="DocRecordFieldItem">
+              <Properties>
+                <ColumnName>Начало</ColumnName>
+                <Value>ППУ2</Value>
+              </Properties>
+            </Child>
+            <Child TypeName="DocRecordFieldItem">
+              <Properties>
+                <ColumnName>Конец</ColumnName>
+                <Value>1-209 ОВ</Value>
+              </Properties>
+            </Child>
+            <Child TypeName="DocRecordFieldItem">
+              <Properties>
+                <ColumnName>Список трасс</ColumnName>
+                <Value>Т.875,Т.89,Т.88,Т.87,Т.4,Т.22,Т.23,Т.24,Т.25,Т.26,Т.27,Т.28,Т.29,Т.30,Т.31,Т.32,Т.33,Т.34,Т.35,Т.36,Т.37,Т.38,Т.39,Т.62,Т.63,Т.66,Т.153,Т.953</Value>
+              </Properties>
+            </Child>
+            <Child TypeName="DocRecordFieldItem">
+              <Properties>
+                <ColumnName>Марка</ColumnName>
+                <Value>ВВГнг-FRLS</Value>
+              </Properties>
+            </Child>
+            <Child TypeName="DocRecordFieldItem">
+              <Properties>
+                <ColumnName>NxS</ColumnName>
+                <Value>3x2.5</Value>
+              </Properties>
+            </Child>
+            <Child TypeName="DocRecordFieldItem">
+              <Properties>
+                <ColumnName>Длина</ColumnName>
+                <Value>51</Value>
+              </Properties>
+            </Child>
+            <Child TypeName="DocRecordFieldItem">
+              <Properties>
+                <ColumnName>РУ</ColumnName>
+                <Value>ППУ2</Value>
+              </Properties>
+            </Child>
+            <Child TypeName="DocRecordFieldItem">
+              <Properties>
+                <ColumnName>ТО</ColumnName>
+                <Value>QF28</Value>
+              </Properties>
+            </Child>
+          </Children>
+        </Child>
+        <Child TypeName="DocRecordItem">
+          <Properties>
+            <IsCategorized>False</IsCategorized>
+          </Properties>
+          <Children>
+            <Child TypeName="DocRecordFieldItem">
+              <Properties>
+                <ColumnName>Позиция</ColumnName>
+                <Value>н.1-210 ОВ</Value>
+              </Properties>
+            </Child>
+            <Child TypeName="DocRecordFieldItem">
+              <Properties>
+                <ColumnName>Начало</ColumnName>
+                <Value>ППУ2</Value>
+              </Properties>
+            </Child>
+            <Child TypeName="DocRecordFieldItem">
+              <Properties>
+                <ColumnName>Конец</ColumnName>
+                <Value>1-210 ОВ</Value>
+              </Properties>
+            </Child>
+            <Child TypeName="DocRecordFieldItem">
+              <Properties>
+                <ColumnName>Список трасс</ColumnName>
+                <Value>Т.875,Т.89,Т.88,Т.87,Т.4,Т.22,Т.23,Т.24,Т.25,Т.26,Т.27,Т.28,Т.29,Т.30,Т.31,Т.32,Т.33,Т.34,Т.35,Т.36,Т.37,Т.38,Т.39,Т.62,Т.63,Т.66,Т.153,Т.154,Т.155,Т.156,Т.941,Т.954</Value>
+              </Properties>
+            </Child>
+            <Child TypeName="DocRecordFieldItem">
+              <Properties>
+                <ColumnName>Марка</ColumnName>
+                <Value>ВВГнг-FRLS</Value>
+              </Properties>
+            </Child>
+            <Child TypeName="DocRecordFieldItem">
+              <Properties>
+                <ColumnName>NxS</ColumnName>
+                <Value>3x2.5</Value>
+              </Properties>
+            </Child>
+            <Child TypeName="DocRecordFieldItem">
+              <Properties>
+                <ColumnName>Длина</ColumnName>
+                <Value>52</Value>
+              </Properties>
+            </Child>
+            <Child TypeName="DocRecordFieldItem">
+              <Properties>
+                <ColumnName>РУ</ColumnName>
+                <Value>ППУ2</Value>
+              </Properties>
+            </Child>
+            <Child TypeName="DocRecordFieldItem">
+              <Properties>
+                <ColumnName>ТО</ColumnName>
+                <Value>QF29</Value>
+              </Properties>
+            </Child>
+          </Children>
+        </Child>
+        <Child TypeName="DocRecordItem">
+          <Properties>
+            <IsCategorized>False</IsCategorized>
+          </Properties>
+          <Children>
+            <Child TypeName="DocRecordFieldItem">
+              <Properties>
+                <ColumnName>Позиция</ColumnName>
+                <Value>н.2-214 ОВ</Value>
+              </Properties>
+            </Child>
+            <Child TypeName="DocRecordFieldItem">
+              <Properties>
+                <ColumnName>Начало</ColumnName>
+                <Value>ППУ2</Value>
+              </Properties>
+            </Child>
+            <Child TypeName="DocRecordFieldItem">
+              <Properties>
+                <ColumnName>Конец</ColumnName>
+                <Value>2-214 ОВ</Value>
+              </Properties>
+            </Child>
+            <Child TypeName="DocRecordFieldItem">
+              <Properties>
+                <ColumnName>Список трасс</ColumnName>
+                <Value>Т.875,Т.89,Т.88,Т.87,Т.4,Т.22,Т.23,Т.24,Т.25,Т.26,Т.27,Т.28,Т.29,Т.30,Т.31,Т.32,Т.33,Т.34,Т.35,Т.218,Т.219,Т.628,Т.632,Т.634,Т.636,Т.853,Т.854,Т.955</Value>
+              </Properties>
+            </Child>
+            <Child TypeName="DocRecordFieldItem">
+              <Properties>
+                <ColumnName>Марка</ColumnName>
+                <Value>ВВГнг-FRLS</Value>
+              </Properties>
+            </Child>
+            <Child TypeName="DocRecordFieldItem">
+              <Properties>
+                <ColumnName>NxS</ColumnName>
+                <Value>3x2.5</Value>
+              </Properties>
+            </Child>
+            <Child TypeName="DocRecordFieldItem">
+              <Properties>
+                <ColumnName>Длина</ColumnName>
+                <Value>47</Value>
+              </Properties>
+            </Child>
+            <Child TypeName="DocRecordFieldItem">
+              <Properties>
+                <ColumnName>РУ</ColumnName>
+                <Value>ППУ2</Value>
+              </Properties>
+            </Child>
+            <Child TypeName="DocRecordFieldItem">
+              <Properties>
+                <ColumnName>ТО</ColumnName>
+                <Value>QF30</Value>
+              </Properties>
+            </Child>
+          </Children>
+        </Child>
+        <Child TypeName="DocRecordItem">
+          <Properties>
+            <IsCategorized>False</IsCategorized>
+          </Properties>
+          <Children>
+            <Child TypeName="DocRecordFieldItem">
+              <Properties>
+                <ColumnName>Позиция</ColumnName>
+                <Value>н.2-215 ОВ</Value>
+              </Properties>
+            </Child>
+            <Child TypeName="DocRecordFieldItem">
+              <Properties>
+                <ColumnName>Начало</ColumnName>
+                <Value>ППУ2</Value>
+              </Properties>
+            </Child>
+            <Child TypeName="DocRecordFieldItem">
+              <Properties>
+                <ColumnName>Конец</ColumnName>
+                <Value>2-215 ОВ</Value>
+              </Properties>
+            </Child>
+            <Child TypeName="DocRecordFieldItem">
+              <Properties>
+                <ColumnName>Список трасс</ColumnName>
+                <Value>Т.875,Т.89,Т.88,Т.87,Т.4,Т.22,Т.23,Т.24,Т.25,Т.26,Т.27,Т.28,Т.29,Т.30,Т.31,Т.32,Т.33,Т.34,Т.35,Т.218,Т.857,Т.858,Т.956</Value>
+              </Properties>
+            </Child>
+            <Child TypeName="DocRecordFieldItem">
+              <Properties>
+                <ColumnName>Марка</ColumnName>
+                <Value>ВВГнг-FRLS</Value>
+              </Properties>
+            </Child>
+            <Child TypeName="DocRecordFieldItem">
+              <Properties>
+                <ColumnName>NxS</ColumnName>
+                <Value>3x2.5</Value>
+              </Properties>
+            </Child>
+            <Child TypeName="DocRecordFieldItem">
+              <Properties>
+                <ColumnName>Длина</ColumnName>
+                <Value>42</Value>
+              </Properties>
+            </Child>
+            <Child TypeName="DocRecordFieldItem">
+              <Properties>
+                <ColumnName>РУ</ColumnName>
+                <Value>ППУ2</Value>
+              </Properties>
+            </Child>
+            <Child TypeName="DocRecordFieldItem">
+              <Properties>
+                <ColumnName>ТО</ColumnName>
+                <Value>QF31</Value>
+              </Properties>
+            </Child>
+          </Children>
+        </Child>
+        <Child TypeName="DocRecordItem">
+          <Properties>
+            <IsCategorized>False</IsCategorized>
+          </Properties>
+          <Children>
+            <Child TypeName="DocRecordFieldItem">
+              <Properties>
+                <ColumnName>Позиция</ColumnName>
+                <Value>н.2-221 ОВ</Value>
+              </Properties>
+            </Child>
+            <Child TypeName="DocRecordFieldItem">
+              <Properties>
+                <ColumnName>Начало</ColumnName>
+                <Value>ППУ2</Value>
+              </Properties>
+            </Child>
+            <Child TypeName="DocRecordFieldItem">
+              <Properties>
+                <ColumnName>Конец</ColumnName>
+                <Value>2-221 ОВ</Value>
+              </Properties>
+            </Child>
+            <Child TypeName="DocRecordFieldItem">
+              <Properties>
+                <ColumnName>Список трасс</ColumnName>
+                <Value>Т.875,Т.89,Т.88,Т.87,Т.4,Т.22,Т.23,Т.24,Т.25,Т.26,Т.27,Т.28,Т.29,Т.30,Т.31,Т.32,Т.33,Т.34,Т.35,Т.36,Т.37,Т.105,Т.106,Т.208,Т.209,Т.210,Т.211,Т.824,Т.868,Т.957</Value>
+              </Properties>
+            </Child>
+            <Child TypeName="DocRecordFieldItem">
+              <Properties>
+                <ColumnName>Марка</ColumnName>
+                <Value>ВВГнг-FRLS</Value>
+              </Properties>
+            </Child>
+            <Child TypeName="DocRecordFieldItem">
+              <Properties>
+                <ColumnName>NxS</ColumnName>
+                <Value>3x2.5</Value>
+              </Properties>
+            </Child>
+            <Child TypeName="DocRecordFieldItem">
+              <Properties>
+                <ColumnName>Длина</ColumnName>
+                <Value>53</Value>
+              </Properties>
+            </Child>
+            <Child TypeName="DocRecordFieldItem">
+              <Properties>
+                <ColumnName>РУ</ColumnName>
+                <Value>ППУ2</Value>
+              </Properties>
+            </Child>
+            <Child TypeName="DocRecordFieldItem">
+              <Properties>
+                <ColumnName>ТО</ColumnName>
+                <Value>QF32</Value>
+              </Properties>
+            </Child>
+          </Children>
+        </Child>
+      </Children>
+    </Child>
+  </Children>
+</DocReport>
